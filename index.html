@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sync Up - Hayatınızı Senkronize Edin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    
+    .accordion-button:not(.collapsed) {
+      background-color: hsl(210, 11%, 15%); 
+      color: white; 
+      box-shadow: none; 
+    }
+    .accordion-button:not(.collapsed)::after {
+      filter: brightness(0) invert(1);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Sync Up</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Özellikler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Fiyatlandırma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">SSS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container col-xxl-8 px-4 py-5" id="home">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6"> <img src="/assets/Photos/Gemini_Generated_Image_ik9a03ik9a03ik9a.png"
+          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">SyncUp: Tüm Cihazlarınız Tek Bir Yerde</h1>
+        <p class="lead">Hayatınızı basitleştirin. SyncUp, tüm dosyalarınızı, notlarınızı ve takviminizi tüm cihazlarınız
+          arasında anında senkronize eder. Hızlı, güvenli ve kullanımı kolay.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+            class="btn btn-primary btn-lg px-4 me-md-2">Hemen Başla</button> <button type="button"
+            class="btn btn-outline-secondary btn-lg px-4">Daha Fazla Bilgi</button> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container py-4 px-5 " id="features">
+    <h2 class="text-center border-bottom pb-2 text-body-emphasis display-4 fw-semibold">Neden SyncUp?</h2>
+    <div class="row row-cols-1 row-cols-lg-3 g-4 py-5">
+      <div class="col">
+        <div class="d-flex align-items-start">
+          <div class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-cloud-arrow-up-fill"></i>
+          </div>
+          <div>
+            <h3>Anında Senkronizasyon</h3>
+            <p>Dosyalarınız, notlarınız ve takviminiz siz kaydettiğiniz anda tüm cihazlarınızda güncellenir. Gecikme
+              olmadan
+              anında erişim sağlayın.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-start">
+          <div class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-shield-lock-fill"></i>
+          </div>
+          <div>
+            <h3>Uçtan Uca Güvenlik</h3>
+            <p>Verileriniz, en gelişmiş şifreleme yöntemleriyle korunur...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-start">
+          <div class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-usb-symbol"></i>
+          </div>
+          <div>
+            <h3>Tüm Cihazlarla Uyumlu</h3>
+            <p>SyncUp; telefon, tablet ve bilgisayarınızda sorunsuz bir şekilde çalışır...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container py-5" id="pricing">
+    <div class="d-flex flex-column align-items-center pb-2">
+      <h2 class="display-4 text-body-emphasis">
+        Fiyatlandırma Planlarımız
+      </h2>
+      <p class="fs-5 text-body-secondary">İhtiyaçlarınıza en uygun paketi seçin.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Ücretsiz</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">0TL<small class="text-body-secondary fw-light">/ay</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5 GB Depolama</li>
+                  <li>Temel E-posta Desteği</li>
+                  <li>Sınırlı Özellikler</li>
+                  <li>Yardım Merkezi Erişimi</li>
+                </ul> <button type="button" class="w-100 btn btn-lg btn-outline-dark">Ücretsiz Dene</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header text-bg-dark border-dark py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">150 TL<small class="text-body-secondary fw-light">/ay</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>50 GB Depolama</li>
+                  <li>Öncelikli E-posta Desteği</li>
+                  <li>Tüm Özelliklere Erişim</li>
+                  <li>Yardım Merkezi Erişimi</li>
+                </ul> <button type="button" class="w-100 btn btn-lg btn-dark">Hemen Başla</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Kurumsal</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">500 TL<small class="text-body-secondary fw-light">/ay</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 TB Depolama</li>
+                  <li>7/24 Telefon ve E-posta Desteği</li>
+                  <li>Özel Entegrasyonlar</li>
+                  <li>Kurumsal Yönetim Paneli</li>
+                </ul> <button type="button" class="w-100 btn btn-lg btn-primary">iletişime Geçin</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container py-5" id="faq">
+    <h2 class="display-4 text-body-emphasis text-center">Sıkça Sorulan Sorular</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            SyncUp hangi platformları destekliyor?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            SyncUp; <strong>Windows, macOS, iOS ve Android</strong> dahil olmak üzere tüm büyük platformlarda sorunsuz
+            bir şekilde çalışır.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Verilerim güvende mi?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Kesinlikle. Tüm verileriniz, cihazlarınız arasında uçtan uca şifreleme ile iletilir ve sunucularımızda
+            şifreli olarak saklanır. Gizliliğiniz bizim için en yüksek önceliktir.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Aboneliğimi istediğim zaman iptal edebilir miyim?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Evet, Pro veya Kurumsal aboneliğinizi istediğiniz zaman, hiçbir ek ücret ödemeden iptal edebilirsiniz.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="py-3 my-4">
+    <div class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border">
+      <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Anasayfa</a></li>
+      <li class="nav-item"><a href="#features" class="nav-link px-2 text-body-secondary">Özellikler</a></li>
+      <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-body-secondary">Fiyatlandırma</a></li>
+      <li class="nav-item"><a href="#faq" class="nav-link px-2 text-body-secondary">SSS</a></li>
+    </ul>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+  <li class="ms-3">
+    <a class="text-body-secondary" href="#" aria-label="Instagram">
+      <i class="bi bi-instagram fs-4"></i> </a>
+  </li>
+  <li class="ms-3">
+    <a class="text-body-secondary" href="#" aria-label="Facebook">
+      <i class="bi bi-facebook fs-4"></i> </a>
+  </li>
+  <li class="ms-3">
+    <a class="text-body-secondary" href="#" aria-label="Twitter">
+      <i class="bi bi-twitter fs-4"></i> </a>
+  </li>
+</ul>
+    </div>
+    
+    
+    <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
